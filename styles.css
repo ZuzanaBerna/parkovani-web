@@ -68,16 +68,15 @@
 .Události{
 	margin-right: auto;
 	margin-left: auto;}
-	.kontakt{
-	margin-right: auto;
-	margin-left: auto;
-	}
+	
+	
 	
 	.doba{
 		margin-right: auto;
 		margin-left: auto;
 	}
-	.Kontakt {
-		margin-right: auto;
-		margin-left: auto;
+	
+	
+	h2 {
+		font-size: 40px;
 	}
