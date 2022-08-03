@@ -10,6 +10,7 @@
 .kontakty	{ background-color: #d52d12; }
 .lokalita{background-color: #fdc927;}
 
+
 /* ---------------------------------------------------- */
 
 .kontejner{
@@ -20,7 +21,8 @@
 	grid-template-rows: 200px 200px 200px 200px 200px;
 	gap: 30px;
 	margin: 30px;
-	font-family:'
+	text-align: center;
+	
 }
 
 .parkovani{
@@ -63,3 +65,19 @@
     grid-row: 3/4;
 	border-radius: 25px;
 }
+.Události{
+	margin-right: auto;
+	margin-left: auto;}
+	.kontakt{
+	margin-right: auto;
+	margin-left: auto;
+	}
+	
+	.doba{
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.Kontakt {
+		margin-right: auto;
+		margin-left: auto;
+	}
