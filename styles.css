@@ -1,0 +1,55 @@
+.sloupec {
+	padding: 20px;
+}
+
+.parkovani{background-color: #ffcccb;}
+.volnaMista	{ background-color: #ffcccb; }
+.oteviraciDoba	{ background-color: #ffcccb; }
+.upcoming			{ background-color: #ffcccb; }
+.otevritZavoru	{ background-color: #ffcccb; }
+.Kontakty	{ background-color: #ffcccb; }
+.kontakty	{ background-color: #ffcccb; }
+.vytizeni{background-color: #ffcccb;}
+
+/* ---------------------------------------------------- */
+
+.kontejner{
+	display: grid;
+	grid-template-columns: 200px auto 250px;
+	grid-template-rows: 200px auto 100px;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px 200px 200px 200px;
+	gap: 10px;
+}
+
+.parkovani{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.volnaMista{
+	grid-column: 1;
+	grid-row: 2;
+
+}
+
+.upcoming{
+	grid-column: 1;
+	grid-row: 3/5;
+}
+.oteviraciDoba{
+	grid-column: 2;
+	grid-row: 2;
+}
+.otevritZavoru{
+	grid-column: 2;
+	grid-row: 4
+}
+
+.kontakty{
+    grid-column: 1/3;
+    grid-row: 5;
+}
+.vytizeni{
+    grid-column: 2;
+    grid-row: 3/4;
+}
