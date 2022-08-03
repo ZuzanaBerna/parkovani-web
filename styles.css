@@ -17,7 +17,7 @@
 	grid-template-columns: 200px auto 250px;
 	grid-template-rows: 200px auto 100px;
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 200px 200px 200px 200px 200px;
+	grid-template-rows: 200px 150px 150px 200px 200px;
 	gap: 30px;
 	margin: 30px;
 	font-family:'
@@ -49,8 +49,6 @@
 	grid-column: 2;
 	grid-row: 4;
 	border-radius: 25px;
-
-
 }
 
 .kontakty{
@@ -63,3 +61,4 @@
     grid-row: 3/4;
 	border-radius: 25px;
 }
+
