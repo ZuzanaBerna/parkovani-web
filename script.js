@@ -24,12 +24,14 @@ function onMessageArrived(message) {
         counter -= 1
         document.getElementById("vjezd").innerText = counter.toString().padStart(4, "0")
         otevriZavoru()
+        zmenaBarvy()
         
     }
     else {
         counter += 1 
         document.getElementById("vjezd").innerText = counter.toString().padStart(4, "0")
         zavriZavoru()
+        zmenaBarvy()
     }
 
     sendMessage()
@@ -69,6 +71,18 @@ function zavriZavoru(){
         client.send(message);
 
     }, 1000,)
+}
+
+let barvaTextu =  document.querySelector("#vjezd")
+
+function zmenaBarvy(){
+    if (counter>5){
+        barvaTextu.style.color = "green";   
+    }
+    else {
+        barvaTextu.style.color = "red"; 
+    }
+    
 }
 
 
